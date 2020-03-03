@@ -1,0 +1,24 @@
+header {
+    background-image: url("../css/images/header1.jpg"); height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .top {
+    color: black;
+    padding-top: 400px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 50px;
+  }
+  body {
+    background-color: gray;
+    color: black;
+  }
+  #hairstyles {
+    text-align: center;
+  }
+  #hairstyles {
+    margin-bottom: 50px;
+  }
+    
