@@ -1,0 +1,23 @@
+#myVideo {
+    position: fixed;
+    width: 100%;
+    height: 400px;
+  }
+  .top {
+    color: black;
+    padding-top: 400px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 50px;
+  }
+  body {
+    background-color: gray;
+    color: black;
+  }
+  #hairstyles {
+    text-align: center;
+  }
+  #hairstyles {
+    margin-bottom: 50px;
+  }
+    
