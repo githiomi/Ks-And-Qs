@@ -571,6 +571,8 @@ pre code {
   width: 100%;
   padding-right: 1px;
   padding-left: 1px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 576px) {
