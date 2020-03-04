@@ -1,5 +1,9 @@
 # Week 5 Group Project
+<<<<<<< Updated upstream
 By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
+=======
+ By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
+>>>>>>> Stashed changes
 
  Ks and Qs cuts is an interactive website that implements all the week's knowledge of the following areas; HTML, CSS and Java Script. It also incrporates my creative ability by addition of a few animations and transitions
 
@@ -33,21 +37,27 @@ It is made completly using sublime Text 3 where all the following files were cre
 No bugs to report at the moment! the system works efficiently at 100% guaranteed. Feel free to search the output on googl to ensure that it coincides exactly.
 
 ## Link to live page
-[Click-Here] (https://github.com/githiomi/Ks-And-Qs)
+[This is my link to live pages] (https://github.com/githiomi/Ks-And-Qs)
 
 ## Setup Instructions
-* git clone https://github.com/githiomi/Ks-And-Qs into your terminal. 
-* Navigate to the Week-4-IP folder through cd Documents/Desktop/moringa/Week-4-IP. 
-* Open the folder in your favourite editor,for vscode,is code . and for atom, atom . Open the index.html in your browser.
+* git clone [This] (https://github.com/githiomi/Ks-And-Qs) into your terminal. 
+* Navigate to the Week-4-IP folder through cd Documents/Desktop/moringa/Week-5/Ks-And-Qs. 
+* Open the folder in your favourite editor,for vscode,is code . and for atom, atom . 
+* Open the index.html in your browser.
 
 ## Support and contact details
 Contact us through any of the following:
 
 * Email: danielgithiomi@gmail.com
 * Email: davidneymar21@gmail.com
+<<<<<<< Updated upstream
 * Email: muirurigathairu@gmail.com
 * Email: angiewambui@gmail.com
 * Email: totoro15spain@gmail.com
+=======
+* Email: naftalymuiruri@gmail.com
+* Email: 
+>>>>>>> Stashed changes
 
 ### License
 Click the following to acces the license page: [Click-Here] (https://github.com/githiomi/license/blob/master/LICENSE)
