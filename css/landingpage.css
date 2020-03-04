@@ -3,16 +3,23 @@
    height: 100%;
    width: 100%;
    object-fit: cover;
-}
+
+ #content{
+   position: fixed;
+} 
+
 #content{
    position: fixed;
 }
 .webName{
+
    padding: 30px;
    color: white;
    font-weight: bolder;
    font-size: large;
    float: left;
+   font-size: xx-large;
+
 }
 .reachUs{
    margin: 30px 30px 10px 1000px;
@@ -35,7 +42,6 @@
 .KsQs{
    margin-top: 13%;
    padding: 10px;
-   border-bottom: 3px solid tomato;
    text-align: center;
    font-family: cursive;
    font-weight: bolder;
@@ -65,8 +71,10 @@
    font-weight: bolder;
    padding-bottom: 15px;
 }
+
 .typewriter h3 {
-   padding: 20px;
+   margin: 3px;
+   padding: 10px;
    text-align: center;
    font-weight: bolder;
    color: white;
