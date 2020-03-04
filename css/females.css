@@ -61,3 +61,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
   }
+  .col-md-4 img {
+    width: 90%;
+    height: 380px;
+
+  }
