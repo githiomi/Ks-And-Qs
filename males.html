@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/males.css" rel="stylesheet" type="text/css">
     <script   src="js/jquery-3.4.1.js"></script>
-    <script src="js/male-hairstyle.js"></script>
+    <script src="js/males.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
@@ -15,36 +16,66 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
     <title>Men Hairstyle</title>
     <link rel="icon" type="css/images/logo.jpeg" href="css/images/logo.jpeg"> 
+
 </head>
 <body>
+
+    <div id="header">
         <div id="videoheader">
             <video autoplay muted loop id="myVideo">
-               <source src="css/images/headervideo.mp4" type="video/mp4">
-             </video>
-         </div> 
+            <source src="css/images/headervideo.mp4" type="video/mp4">
+            </video>
 
-   <div class="container" >
+            <div class="mouse">
+                <a href="#genderchoose"><img src="css/images/mouse_click.png" height="40px" width="30px"></a>
+            </div>
+        </div>
+
+        
+
+        <div id="genderchoose">
+            <p class="query">Choose your stylist?
+            <input type="radio" name="gender">Male</input>
+            <input type="radio" name="gender">Female</input>
+            </p>
+        </div>
+
+        <!-- <div class="webName">
+            <a href="landingpage.html"><h3>Ks & Qs</h3></a>
+         </div>
+         <div class="reachUs">
+            <a href="aboutus.html">About US</a>
+            <a href="products.html">Products Used</a>
+            <a href="#"><img src="css/images/cart.png" height="25px" width="25px"></a>
+         </div> -->
+    </div>
+    
+   <div id="content" >
       <div class="container">
+          <div class="male">
+              <p><hr>Select your haircut below<hr></p>
+          </div>
           <div class="row">
-              <div class="col-md-12">
                   <div class="mdb-lightbox">
                     <div class= "row">
-                        <figure class="col-md-4 ">
+                        <figure class="col-md-4 ">       
                         <div class="view overlay">
-                        <div class="image-frame">
-                            <img src="css/images/afro-curly.jpg" class="img-fluid" width="450px" height="370px">
-                        </div>
-                        <div class="overlay1">
-                            <p>Afro Curly</p>
-                                <div class="mask flex-center  rgba-white-light">
-                                <p class="text-black" > KSH 2000</p>
+                          <div class="image-frame">
+                            <div class="afro-curly-hidden">
+                                <span class="clickable"><img src="css/images/afro-curly.jpg" class="img-fluid"></span>
+                                <div class="overlay1">
+                                    <p>Afro Curly</p>
+                                        <div class="mask flex-center  rgba-white-light">
+                                        <p class="text-black" > KSH 2000</p>
+                                        </div>
                                 </div>
+                            </div>
                         </div>
                         </figure>
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/taper-fade.jpg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/taper-fade.jpg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                   <p>Taper Fade </p>
@@ -56,7 +87,7 @@
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/braids.jpeg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/braids.jpeg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                     <p>Braids</p>
@@ -71,7 +102,7 @@
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/cuts.jpeg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/cuts.jpeg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                     <p>Fade X cuts</p>
@@ -84,7 +115,7 @@
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/fade.jpeg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/fade.jpeg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                     <p>Fade</p>
@@ -97,7 +128,7 @@
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/dye.jpeg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/dye.jpeg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                     <p>Dyed Fade</p>
@@ -112,7 +143,7 @@
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/dreads-fade-top.jpg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/dreads-fade-top.jpg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                     <p>Dreads Fade Top</p>
@@ -125,7 +156,7 @@
                         <figure class="col-md-4 ">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/dreads-fade.jpg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/dreads-fade.jpg" class="img-fluid">
                                 </div>
                                 <div class="overlay1">
                                     <p>Dreads Fade Long</p>
@@ -135,12 +166,12 @@
                                 </div>
                             </div>
                         </figure>
-                        <figure class="col-md-4 ">
+                        <figure class="col-md-4">
                             <div class="view overlay">
                                 <div class="image-frame">
-                                    <img src="css/images/mawhawk.jpg" class="img-fluid" width="450px" height="370px">
+                                    <img src="css/images/mawhawk.jpg" class="img-fluid" id="ordertype" value="350" onclick="placeOrder()">
                                 </div>
-                                <div class="overlay1">
+                                <div id="ordertype" value="350" onclick="placeOrder()">
                                     <p>Mohawk</p>
                                     <div class="mask flex-center  rgba-white-light">
                                     <p> KSH 350 </p>
@@ -149,9 +180,12 @@
                             </div>
                         </figure>
                     </div>
+                    
                   </div>
-              </div>
+                </div>
           </div>
+
+
       </div>    
 </body>
 </html>
