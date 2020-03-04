@@ -42,7 +42,7 @@ blockquote {
 
   #q1-ans, #q2-ans, #q3-ans, #q4-ans, #q5-ans, #q6-ans, #q7-ans {
       display: none;
-      color: red;
+      color: blue;
   }
 
   .icon-sc {
