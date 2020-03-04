@@ -81,14 +81,16 @@ p{
 }
 .col-md-4{
   padding: 15px;
+  cursor: pointer;
 }
 .col-md-4 img{
   border-radius: 15px;
   background-color: wheat;
-  width: 100%;
+  width: 95%;
   height: 380px;
   padding: 30px;
-  box-shadow: 2px 2px 2px black;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
 }
 .overlay1{
   padding: 10px;
