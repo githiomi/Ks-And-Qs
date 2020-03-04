@@ -1,28 +1,31 @@
+*{
+   margin: 0px;
+   padding: 0%;
+}
 #myVideo{
    position: fixed;
    height: 100%;
    width: 100%;
-   object-fit: cover;
-
+   object-fit: fill;
+}
+#videoheader{
+   margin-left: -100px ;
+}
  #content{
    position: fixed;
 } 
-
-#content{
-   position: fixed;
-}
-.webName{
-
+.webName a{
+   text-decoration: none;
    padding: 30px;
    color: white;
    font-weight: bolder;
    font-size: large;
    float: left;
    font-size: xx-large;
-
 }
 .reachUs{
-   margin: 30px 30px 10px 1000px;
+   padding: 10px;
+   margin: 27px 30px 10px 830px;
 }
 .reachUs :hover{
    color: wheat;
@@ -54,7 +57,7 @@
    color: wheat;
 }
 #navigation{
-   margin: 10% 0px 0px 100px;
+   margin: 13% 0px 0px 10px;
 }
 #navigation :hover{
    color: wheat;
