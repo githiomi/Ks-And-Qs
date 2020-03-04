@@ -1,6 +1,6 @@
 #about-us-bg {
     background-image: url("images/chris.jpg");
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,12 +9,13 @@
 
 .abt-us-intro-color {
     color: whitesmoke;
-    width: 25%;
+    width: 20%;
     text-align: center;
     padding-left: 5px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .row {
-    text-align: ;
+    text-align: center;
 }
+
