@@ -1,0 +1,87 @@
+#myVideo{
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+#content{
+   position: fixed;
+}
+.webName{
+   padding: 30px;
+   color: white;
+   font-weight: bolder;
+   font-size: large;
+   float: left;
+}
+.reachUs{
+   margin: 30px 30px 10px 1000px;
+}
+.reachUs :hover{
+   color: wheat;
+   text-decoration: none;
+   margin: 10px;
+   font-weight: bolder;
+   border-bottom: 3px solid white;
+   transition: all 0.2s ease-in-out;
+}
+.reachUs a{
+   color: white;
+   text-decoration: none;
+   margin: 10px;
+   font-weight: bolder;
+   padding-bottom: 15px;
+}
+.KsQs{
+   margin-top: 13%;
+   padding: 10px;
+   border-bottom: 3px solid tomato;
+   text-align: center;
+   font-family: cursive;
+   font-weight: bolder;
+   color: wheat;
+}
+.slogan{
+   text-align: center;
+   font-family: cursive;
+   font-weight: bolder;
+   color: wheat;
+}
+#navigation{
+   margin: 10% 0px 0px 100px;
+}
+#navigation :hover{
+   color: wheat;
+   text-decoration: none;
+   margin: 130px;
+   font-weight: bolder;
+   border-bottom: 2px solid white;
+   transition: all 0.2s ease-in-out;
+}
+#navigation a{
+   color: white;
+   text-decoration: none;
+   margin: 130px;
+   font-weight: bolder;
+   padding-bottom: 15px;
+}
+.typewriter h3 {
+   padding: 20px;
+   text-align: center;
+   font-weight: bolder;
+   color: white;
+   font-family: Comic Sans MS;
+   overflow: hidden; 
+   white-space: nowrap; 
+   margin: 0 auto; 
+   letter-spacing: .03em;
+   animation: 
+     typing 30s steps(500, end),
+     blink-caret .50s step-end infinite;
+ }
+ 
+ /* The typing effect*/
+ @keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+ } 
