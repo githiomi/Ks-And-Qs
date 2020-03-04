@@ -1,8 +1,11 @@
 header {
-    background-image: url("../css/images/header1.jpg"); height: 500px;
     margin-bottom: 50px;
-    background-attachment: fixed;
     background-size: cover;
+}
+#myVideo {
+    position: fixed;
+    width: 100%;
+    height: 400px;
   }
   .top {
     color: black;
