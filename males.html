@@ -15,7 +15,7 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
     <title>Men Hairstyle</title>
-    <link rel="icon" type="css/images/logo.jpeg" href="css/images/logo.jpeg"> 
+    <link rel="icon" type="image/png" href="css/images/taper-fade.jpg"/>
 
 </head>
 <body>
@@ -27,11 +27,10 @@
             </video>
 
             <div class="mouse">
+                <h4><hr><a href="landingpage.html"><img src="css/images/arrowback.png" height="25px" width="25px"></a>KINGS' CUTS<hr></h4>
                 <a href="#genderchoose"><img src="css/images/mouse_click.png" height="40px" width="30px"></a>
             </div>
         </div>
-
-        
 
         <div id="genderchoose">
             <p class="query">Choose your stylist?
@@ -39,15 +38,6 @@
             <input type="radio" name="gender">Female</input>
             </p>
         </div>
-
-        <!-- <div class="webName">
-            <a href="landingpage.html"><h3>Ks & Qs</h3></a>
-         </div>
-         <div class="reachUs">
-            <a href="aboutus.html">About US</a>
-            <a href="products.html">Products Used</a>
-            <a href="#"><img src="css/images/cart.png" height="25px" width="25px"></a>
-         </div> -->
     </div>
     
    <div id="content" >
@@ -63,6 +53,7 @@
                           <div class="image-frame">
                             <div class="afro-curly-hidden">
                                 <span class="clickable"><img src="css/images/afro-curly.jpg" class="img-fluid"></span>
+                                <div id="overlay9" value="2000" onclick="placeOrder9()">
                                 <div class="overlay1">
                                     <p>Afro Curly</p>
                                         <div class="mask flex-center  rgba-white-light">
@@ -77,6 +68,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/taper-fade.jpg" class="img-fluid">
                                 </div>
+                                <div id="overlay8" value="350" onclick="placeOrder8()">
                                 <div class="overlay1">
                                   <p>Taper Fade </p>
                                 <div class="mask flex-center  rgba-white-light">
@@ -89,6 +81,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/braids.jpeg" class="img-fluid">
                                 </div>
+                                <div id="overlay7" value="1300" onclick="placeOrder7()">
                                 <div class="overlay1">
                                     <p>Braids</p>
                                     <div class="mask flex-center  rgba-white-light">                       
@@ -104,6 +97,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/cuts.jpeg" class="img-fluid">
                                 </div>
+                                <div id="overlay6" value="600" onclick="placeOrder6()">
                                 <div class="overlay1">
                                     <p>Fade X cuts</p>
                                     <div class="mask flex-center  rgba-white-light">
@@ -117,6 +111,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/fade.jpeg" class="img-fluid">
                                 </div>
+                                <div id="overlay5" value="350" onclick="placeOrder5()">
                                 <div class="overlay1">
                                     <p>Fade</p>
                                         <div class="mask flex-center  rgba-white-light">
@@ -130,6 +125,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/dye.jpeg" class="img-fluid">
                                 </div>
+                                <div id="overlay4" value="800" onclick="placeOrder4()">
                                 <div class="overlay1">
                                     <p>Dyed Fade</p>
                                     <div class="mask flex-center  rgba-white-light">
@@ -145,6 +141,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/dreads-fade-top.jpg" class="img-fluid">
                                 </div>
+                                <div id="overlay3" value="1000" onclick="placeOrder3()">
                                 <div class="overlay1">
                                     <p>Dreads Fade Top</p>
                                     <div class="mask flex-center  rgba-white-light">
@@ -158,6 +155,7 @@
                                 <div class="image-frame">
                                     <img src="css/images/dreads-fade.jpg" class="img-fluid">
                                 </div>
+                                <div id="overlay2" value="2500" onclick="placeOrder2()">
                                 <div class="overlay1">
                                     <p>Dreads Fade Long</p>
                                     <div class="mask flex-center  rgba-white-light">
@@ -171,10 +169,13 @@
                                 <div class="image-frame">
                                     <img src="css/images/mawhawk.jpg" class="img-fluid" id="ordertype" value="350" onclick="placeOrder()">
                                 </div>
-                                <div id="ordertype" value="350" onclick="placeOrder()">
+                                <div id="overlay1" value="350" onclick="placeOrder1()">
+                                    <div class="overlay1">
                                     <p>Mohawk</p>
                                     <div class="mask flex-center  rgba-white-light">
-                                    <p> KSH 350 </p>
+                                        <p> KSH 350 </p>
+                                    </div>
+                                </div>
                                     </div>
                                 </div>
                             </div>
@@ -182,6 +183,15 @@
                     </div>
                     
                   </div>
+
+                  <div id="appear">
+                      <hr>
+                        <span class="haircut">
+                            
+                        </span>
+                      <hr>
+                  </div>
+
                 </div>
           </div>
 

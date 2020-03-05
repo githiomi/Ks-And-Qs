@@ -46,7 +46,7 @@ Contact us through any of the following:
 
 * Email: danielgithiomi@gmail.com
 * Email: davidneymar21@gmail.com
-* Email: naftalymuiruri@gmail.com
+* Email: muirurigathairu@gmail.com
 * Email: angiewambui@gmail.com
 
 ### License
