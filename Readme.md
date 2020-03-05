@@ -44,15 +44,10 @@ No bugs to report at the moment! the system works efficiently at 100% guaranteed
 Contact us through any of the following:
 
 * Email: danielgithiomi@gmail.com
-<<<<<<< HEAD
 * Email: davidneymar21@gmail.com
 * Email: muirurigathairu@gmail.com
 * Email: angiewambui@gmail.com
-=======
-* Email: muirurigathairu@gmail.com
-* Email: neymardavid21@gmail.com
 * Email: totoro15spain@gmail.com
->>>>>>> styled and resized overlays
 
 ### License
 Click the following to acces the license page: [Click-Here] (https://github.com/githiomi/license/blob/master/LICENSE)
