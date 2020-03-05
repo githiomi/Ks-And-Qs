@@ -117,6 +117,14 @@ p{
   padding: 10px;
   margin-bottom: 15px;
 }
+.col-md-4 a{
+  color: black;
+  text-decoration: none;
+}
+.col-md-4 a :hover{
+  color: black;
+  text-decoration: none;
+}
 #confirm{
   margin-top: 10px;
   padding: 10px;
