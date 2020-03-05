@@ -11,10 +11,15 @@
   font-size: x-large;
 }
 .mouse{
+  margin: 7px 0px 30px 0px;
   background-color: wheat;
-  padding: 30px;
-  padding-left: 50%;
-  margin-bottom: 50px;
+  text-align: center;
+  padding: 7px;
+  animation: bounce 2s infinite;
+}
+.mouse img{
+  margin-bottom: 7px;
+  cursor: pointer;
 }
 #genderchoose{
   background-color: wheat;
