@@ -1,5 +1,5 @@
 .myVideo {
-  width: 100%;
+  /* margin-top: -50% */
 }
 .container{
   font-family: 'Courier New', Courier, monospace;
@@ -11,19 +11,24 @@
   font-size: x-large;
 }
 .mouse{
+  margin: 7px 0px 30px 0px;
   background-color: wheat;
-  padding: 30px;
-  padding-left: 50%;
-  margin-bottom: 50px;
+  text-align: center;
+  padding: 7px;
+  animation: bounce 2s infinite;
+}
+.mouse img{
+  margin-bottom: 7px;
+  cursor: pointer;
 }
 #genderchoose{
   background-color: wheat;
-  border-radius: 3px;
-  padding: 10px;
-  padding-top: 20px;
+  border-radius: 3px; 
+ padding: 10px; 
+  padding-top: 20px; 
   text-align: center;
   font-weight: bolder;
-  font-size: large;
+font-size: large; 
 }
 .query{
   font-size: large;
@@ -65,3 +70,116 @@
 #hairstyles {
   margin-bottom: 50px;
   text-align: center;
+}
+.overlay1{
+  padding: 10px;
+}
+.overlay1 :hover{
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+#hairstyles {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.afro-curly-showing {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}    
+#appear{
+  display: none; 
+  text-align: center;
+  background-color: wheat;
+  padding: 10px;
+}
+
+.col-md-4 a{
+  color: black;
+  text-decoration: none;
+}
+.col-md-4 a :hover{
+  color: black;
+  text-decoration: none;
+}
+#confirm{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: wheat;
+  border: 2px solid wheat;
+}
+#confirm :hover {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.5s ease-in;
+}
+.info{
+  background-color: wheat;
+  text-align: center;
+  font-weight: bolder;
+  display: none;
+  margin: 20px 0px 20px 0px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.request{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+input{
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+}
+.selectNai{
+  margin-left: 30%;
+  width: 30%;
+}
+.selectNai p{
+  text-align: center;
+  margin-left: 100px;
+}
+.noDelivery{
+  display: none;
+}
+.addressInput{
+  display: none;
+}
+#confirmDetailsBtn{
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+  width: 200px;
+}
+#showDetails{
+display: none; 
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  color: wheat;
+  background-color: black;
+}
+#proceedBtn{
+  margin-top: 150px;
+  width: 200px;
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+}
+button a{
+  text-decoration: none;
+  color: wheat;
+}
+  button a :hover{
+       text-decoration: none;
+       color: wheat;
+  }
