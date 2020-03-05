@@ -2,7 +2,7 @@
 
 By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
 
-Ks and Qs cuts is an interactive website that implements all the week's knowledge of the following areas; HTML, CSS and Java Script. It also incrporates my creative ability by addition of a few animations and transitions
+ Ks and Qs cuts is an interactive website that implements all the week's knowledge of the following areas; HTML, CSS and Java Script. It also incrporates my creative ability by addition of a few animations and transitions
 
  Created By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
 
@@ -42,14 +42,15 @@ No bugs to report at the moment! the system works efficiently at 100% guaranteed
 * Open the folder in your favourite editor,for vscode,is code . and for atom, atom . 
 * Open the index.html in your browser.
 
+
 ## Support and contact details
 Contact us through any of the following:
-
 * Email: angiewambui@gmail.com
 * Email: davidneymar21@gmail.com
 * Email: muirurigathairu@gmail.com
 * Email: totoro15spain@gmail.com
 * Email: danielgithiomi@gmail.com
+
 
 ### License
 Click the following to acces the license page: [Click-Here] (https://github.com/githiomi/license/blob/master/LICENSE)
