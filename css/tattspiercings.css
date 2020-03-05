@@ -94,82 +94,126 @@ h3 {
     width: 85%;
     height: 350px;
 }
+.col-md-4 img :hover{
+  box-shadow: 3px 3px 3px black;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: wheat;
+  margin-left: 20px;
+  width: 85%;
+  height: 350px;
+  border-bottom: 3px solid black;
+}
+.tattoo, .piercing{
+  margin: 30px;
+}
+.tattoo h4, .piercing h4{
+  font-weight: bold;
+  text-align: center;
+}
 .col-md-4 p{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 15px;
 }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-  #appear{
+.col-md-4:hover{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid black;
+  transition: all 0.5s ease-in;
+}
+figure a{
+  text-decoration: none;
+  color: black;
+}
+figure a :hover{
+  text-decoration: none;
+  color: black;
+}
+#appear{
     display: none; 
     text-align: center;
     background-color: wheat;
     padding: 10px;
   }
-  #confirm{
+#confirm{
     margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
     background-color: black;
     color: wheat;
     border: 2px solid wheat;
-  }
-  #confirm :hover {
+}
+#confirm :hover {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+    text-decoration: none;
     background-color: transparent;
     border: 2px solid black;
     transition: all 0.5s ease-in;
   }
+  .info{
+    background-color: wheat;
+    text-align: center;
+    font-weight: bolder;
+    display: none;
+    margin: 20px 0px 20px 0px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .request{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  input{
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+  }
+  .selectNai{
+    margin-left: 30%;
+    width: 30%;
+  }
+  .selectNai p{
+    text-align: center;
+    margin-left: 100px;
+  }
+  .noDelivery{
+    display: none;
+  }
+  .addressInput{
+    display: none;
+  }
+  #confirmDetailsBtn{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    width: 200px;
+  }
+  #showDetails{
+    display: none;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    color: wheat;
+    background-color: black;
+  }
+  #proceedBtn{
+    margin-top: 150px;
+    width: 200px;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+  }
+  button a{
+    text-decoration: none;
+    color: wheat;
+  }
+    button a :hover{
+         text-decoration: none;
+         color: wheat;
+    }
