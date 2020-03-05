@@ -111,6 +111,7 @@ p{
   color: #0088cc;
 }    
 #appear{
+  width: 100%;
   display: none; 
   text-align: center;
   background-color: wheat;

@@ -8,7 +8,7 @@ By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githio
 
 ## Screenshots
 
-  ![SCREENSHOT](css/images/lpscreenshot.png)
+  ![SCREENSHOT](css/images/screeny.png)
 
 ## Description
 Ks and Qs cuts is an enticing website that enticed the user to become part of the Ks and Qs cuts Community through its beautiful design that appeals to the eye of the user. This is a pizza website that allows the users order the style of hair they need specify the nature of products,choose the barber or salonist and see the prices for the orders.
