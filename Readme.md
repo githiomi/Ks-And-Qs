@@ -63,6 +63,7 @@ Contact us through any of the following:
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 * Email: muirurigathairu@gmail.com
+* Email: totoro15spain@gmail.com
 * Email: angiewambui@gmail.com
 * Email: totoro15spain@gmail.com
 =======
