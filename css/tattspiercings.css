@@ -1,29 +1,33 @@
 *{
   font-family: 'Courier New', Courier, monospace;
 }
-p{
-  text-align: center;
+#header{
+  margin-bottom: 10px;
 }
-.videoheader{
-  position: fixed;
+
+video{ 
+  size: contain;
   width: 100%;
-}
-.video{
-  width: 100%;
+  margin-top: -18%;
 }
 .webName h3{
-  padding: 20px;
+  padding: 30px;
   color: white;
+  font-weight: bolder;
   font-size: large;
   float: left;
   font-size: xx-large;
 }
 .mouse{
-  margin: -12% 0px 30px 0px;
+  margin: 30px 0px 30px 0px;
   background-color: wheat;
   text-align: center;
-  padding: 7px;
+  padding: 10px;
   animation: bounce 2s infinite;
+}
+.mouse h4 {
+  margin: 15px;
+  text-align: center;
 }
 .mouse img{
   margin-bottom: 7px;
@@ -102,10 +106,12 @@ p{
 }
 .overlay1{
   padding: 10px;
+  text-align: center;
 }
 .overlay1 :hover{
   padding: 5px;
   border-bottom: 2px solid black;
+  text-align: center;
 }
 #hairstyles {
   margin-bottom: 50px;

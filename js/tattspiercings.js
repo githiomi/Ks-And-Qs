@@ -12,55 +12,91 @@ function placeOrder1() {
   price = parseInt(document.getElementById('overlay1').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Mohawk hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected Double Arm Sleeve that will cost you Ksh: " + price);
 }
 function placeOrder2() {
   price = parseInt(document.getElementById('overlay2').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Dreads Fade Long hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected the Half Arm that will cost you Ksh: " + price);
 }
 function placeOrder3() {
   price = parseInt(document.getElementById('overlay3').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Dreads Fade Top hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected the Torso filled Top that will cost you Ksh: " + price);
 }
 function placeOrder4() {
   price = parseInt(document.getElementById('overlay4').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Dyed Fade hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected Half Back with arm that will cost you Ksh: " + price);
 }
 function placeOrder5() {
   price = parseInt(document.getElementById('overlay5').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Fade hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected Half Neck that will cost you Ksh: " + price);
 }
 function placeOrder6() {
   price = parseInt(document.getElementById('overlay6').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Fade X Cuts hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected Half Back Filled that will cost you Ksh: " + price);
 }
 function placeOrder7() {
   price = parseInt(document.getElementById('overlay7').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Braids hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected the Full Leg Sleeve that will cost you Ksh: " + price);
 }
 function placeOrder8() {
   price = parseInt(document.getElementById('overlay8').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Taper Fade hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected the Full sleeve Arm with Neck hairstyle that will cost you Ksh: " + price);
 }
 function placeOrder9() {
   price = parseInt(document.getElementById('overlay9').getAttribute('value'));
 
   $("#appear").show();
-  $(".haircut").text("You have selected the Afro Curly hairstyle that will cost you Ksh: " + price);
+  $(".haircut").text("You have selected the Full Back With Arm that will cost you Ksh: " + price);
+}
+function placeOrder10() {
+  price = parseInt(document.getElementById('overlay10').getAttribute('value'));
+
+  $("#appear").show();
+  $(".haircut").text("You have selected the Earing Piercing that will cost you Ksh: " + price);
+}
+function placeOrder11() {
+  price = parseInt(document.getElementById('overlay11').getAttribute('value'));
+
+  $("#appear").show();
+  $(".haircut").text("You have selected the Nose Ring Piercing that will cost you Ksh: " + price);
+}
+function placeOrder12() {
+  price = parseInt(document.getElementById('overlay12').getAttribute('value'));
+
+  $("#appear").show();
+  $(".haircut").text("You have selected the Bull Ring Piercing that will cost you Ksh: " + price);
+}
+function placeOrder13() {
+  price = parseInt(document.getElementById('overlay13').getAttribute('value'));
+
+  $("#appear").show();
+  $(".haircut").text("You have selected the Eyebrow Piercing that will cost you Ksh: " + price);
+}
+function placeOrder14() {
+  price = parseInt(document.getElementById('overlay14').getAttribute('value'));
+
+  $("#appear").show();
+  $(".haircut").text("You have selected the Belly Button Piercing that will cost you Ksh: " + price);
+}
+function placeOrder15() {
+  price = parseInt(document.getElementById('overlay15').getAttribute('value'));
+
+  $("#appear").show();
+  $(".haircut").text("You have selected the Tongue Piercing that will cost you Ksh: " + price);
 }
 function detailsShow() {
   $(".info").slideToggle(1500);
