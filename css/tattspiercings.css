@@ -1,153 +1,221 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 #header{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 video{ 
-    size: contain;
-    width: 100%;
-    margin-top: -18%;
+  size: contain;
+  width: 100%;
+  margin-top: -18%;
 }
 .webName h3{
-    padding: 30px;
-    color: white;
-    font-weight: bolder;
-    font-size: large;
-    float: left;
-    font-size: xx-large;
+  padding: 30px;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  float: left;
+  font-size: xx-large;
 }
 .mouse{
-    margin: 30px 0px 30px 0px;
-    background-color: wheat;
-    text-align: center;
-    padding: 10px;
-    animation: bounce 2s infinite;
-  }
+  margin: 30px 0px 30px 0px;
+  background-color: wheat;
+  text-align: center;
+  padding: 10px;
+  animation: bounce 2s infinite;
+}
 .mouse h4 {
-    margin: 15px;
-    text-align: center;
+  margin: 15px;
+  text-align: center;
+}
+.mouse img{
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+.mouse h4 {
+  margin: 15px;
+  text-align: center;
+  font-weight: bolder;
+}
+.reachUs{
+  position: fixed;
+  margin: 30px 30px 10px 100px;
+}
+.reachUs :hover{
+  color: wheat;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bolder;
+  border-bottom: 3px solid white;
+  transition: all 0.2s ease-in-out;
+}
+.reachUs a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bolder;
+  padding-bottom: 10px;
 }
 #genderchoose{
-    background-color: wheat;
-    border-radius: 3px;
-    padding: 10px;
-    padding-top: 20px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: large;
-}   
-#genderchoose input{
-    margin: 15px;
+  background-color: wheat;
+  border-radius: 3px;
+  padding: 5px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
 }
-h3 {
-    text-align: center;
+.guarantee, .whatspop{
+  padding: 20px 0px 20px 0px;
 }
-.guarantee {
-    text-align: center;
-    margin: 100px;
+.guarantee h3, .whatspop h3{
+  margin-top: 15px;
+  padding: 5px;
 }
-.whatspop {
-    text-align: center;
+.query input{
+  margin: 2px;
+  padding: 0px;
 }
-.h10 {
-    text-align: center;
-    padding: 10px;
+.h9, .h10, .h11{
+  text-align: center;
+  padding: 10px 0px 10px 0px;
 }
-.h9 {
-    text-align: center;
-    padding: 10px;
+.male{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
 }
-.h11 {
-    text-align: center;
-    padding: 10px;
+.row{
+  margin: 5px;
+  padding: 5px;
 }
-.img-hidden2 {
-    text-align: center;
-}
-.img-hidden1 {
-    text-align: center;
-}
-.img-hidden3 {
-    text-align: center;
-}
-.whatwedo {
-    margin-bottom: 50px;
-}
-.gallery {
-    text-align: center;
-}
-#choices {
-    margin-top: 10px;
-    text-align: center;
-}
-.toggle{
-    width: 80%;
+.col-md-4{
+  padding: 15px;
+  cursor: pointer;
 }
 .col-md-4 img{
-    box-shadow: 3px 3px 3px black;
-    padding: 30px;
-    border-radius: 15px;
-    background-color: wheat;
-    margin-left: 20px;
-    width: 85%;
-    height: 350px;
+  border-radius: 15px;
+  background-color: wheat;
+  width: 95%;
+  height: 380px;
+  padding: 30px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
 }
-.col-md-4 p{
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 15px;
+.overlay1{
+  padding: 10px;
+  text-align: center;
 }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Style the container/contact section */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+.overlay1 :hover{
+  padding: 5px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+#hairstyles {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.afro-curly-showing {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}    
+#appear{
+  width: 100%;
+  display: none; 
+  text-align: center;
+  background-color: wheat;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.col-md-4 a{
+  color: black;
+  text-decoration: none;
+}
+.col-md-4 a :hover{
+  color: black;
+  text-decoration: none;
+}
+#confirm{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: wheat;
+  border: 2px solid wheat;
+}
+#confirm :hover {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.5s ease-in;
+}
+.info{
+  background-color: wheat;
+  text-align: center;
+  font-weight: bolder;
+  display: none;
+  margin: 20px 0px 20px 0px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.request{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+input{
+  margin: 10px;
+  padding: 10px;
+  width: 30%;
+}
+.selectNai{
+  margin-left: 30%;
+  width: 30%;
+}
+.selectNai p{
+  text-align: center;
+  margin-left: 100px;
+}
+.noDelivery{
+  display: none;
+}
+.addressInput{
+  display: none;
+}
+#confirmDetailsBtn{
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+  width: 200px;
+}
+#showDetails{
+  display: none;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  color: wheat;
+  background-color: black;
+}
+#proceedBtn{
+  margin-top: 150px;
+  width: 200px;
+  background-color: black;
+  color: wheat;
+  padding: 10px;
+}
+button a{
+  text-decoration: none;
+  color: wheat;
+}
+  button a :hover{
+       text-decoration: none;
+       color: wheat;
   }
