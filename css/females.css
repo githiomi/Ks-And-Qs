@@ -1,5 +1,5 @@
 .myVideo {
-  /* width: 100%; */
+  margin-top: -50%;
 }
 .container{
   font-family: 'Courier New', Courier, monospace;
@@ -23,12 +23,12 @@
 }
 #genderchoose{
   background-color: wheat;
-  border-radius: 3px;
-  padding: 10px;
-  padding-top: 20px;
+  border-radius: 3px; 
+ padding: 10px; 
+  padding-top: 20px; 
   text-align: center;
   font-weight: bolder;
-  font-size: large;
+font-size: large; 
 }
 .query{
   font-size: large;
