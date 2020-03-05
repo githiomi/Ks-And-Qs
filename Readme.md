@@ -1,13 +1,6 @@
 # Week 5 Group Project
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
-=======
- By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
->>>>>>> Stashed changes
-=======
-By Angie Wambui, David Kiriago, Linsy Kipruto, Naftaly Muiruri and Daniel Githiomi
->>>>>>> This will update the live link of the project within its brackets
 
 Ks and Qs cuts is an interactive website that implements all the week's knowledge of the following areas; HTML, CSS and Java Script. It also incrporates my creative ability by addition of a few animations and transitions
 
@@ -44,36 +37,19 @@ No bugs to report at the moment! the system works efficiently at 100% guaranteed
 [Click-Here] (https://github.com/githiomi/Ks-And-Qs)
 
 ## Setup Instructions
-<<<<<<< HEAD
 * git clone [This] (https://github.com/githiomi/Ks-And-Qs) into your terminal. 
 * Navigate to the Week-4-IP folder through cd Documents/Desktop/moringa/Week-5/Ks-And-Qs. 
 * Open the folder in your favourite editor,for vscode,is code . and for atom, atom . 
-=======
-* Git clone [This] (https://github.com/githiomi/Ks-And-Qs) into your terminal.  
-* Navigate to the Week-4-IP folder through cd Documents/Desktop/moringa/Week-5/Ks-And-Qs.
-* Open the folder in your favourite editor,for vscode,is code . and for atom, atom .
->>>>>>> This will update the live link of the project within its brackets
 * Open the index.html in your browser.
 
 ## Support and contact details
 Contact us through any of the following:
 
-* Email: danielgithiomi@gmail.com
+* Email: angiewambui@gmail.com
 * Email: davidneymar21@gmail.com
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 * Email: muirurigathairu@gmail.com
 * Email: totoro15spain@gmail.com
-* Email: angiewambui@gmail.com
-* Email: totoro15spain@gmail.com
-=======
-* Email: naftalymuiruri@gmail.com
-* Email: 
->>>>>>> Stashed changes
-=======
-* Email: naftalymuiruri@gmail.com
-* Email: angiewambui@gmail.com
->>>>>>> This will update the live link of the project within its brackets
+* Email: danielgithiomi@gmail.com
 
 ### License
 Click the following to acces the license page: [Click-Here] (https://github.com/githiomi/license/blob/master/LICENSE)
