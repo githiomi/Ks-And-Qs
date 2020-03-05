@@ -1,37 +1,67 @@
-#overlay{
-    background-image: url(../css/images/ground.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 20%;
-    padding-bottom: 20%;
-
+.myVideo {
+  width: 100%;
+}
+.container{
+  font-family: 'Courier New', Courier, monospace;
+}
+.female{
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.mouse{
+  background-color: wheat;
+  padding: 30px;
+  padding-left: 50%;
+  margin-bottom: 50px;
+}
+#genderchoose{
+  background-color: wheat;
+  border-radius: 3px;
+  padding: 10px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+.query{
+  font-size: large;
+}
+.query input{
+  margin: 10px;
+}
+.male{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
 }
 .row{
-    text-align: center;
-    font-size: xx-large;
-    color: black;
-
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 50px;
 }
-
-  #title{
-    text-align: center;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
-  }
-  #choices{background-color:gray;
-  }
-  .button{
-    background-color:black;
-    color: white;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-  }
-  .col-md-4 img {
-    width: 90%;
-    height: 380px;
-
-  }
+.col-md-4{
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+}
+.col-md-4 img{
+  border-radius: 15px;
+  background-color: wheat;
+  width: 95%;
+  height: 350px;
+  padding: 30px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+.col-md-4 p{
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+}
+#hairstyles {
+  margin-bottom: 50px;
+  text-align: center;
