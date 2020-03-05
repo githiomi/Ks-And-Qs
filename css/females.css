@@ -66,3 +66,27 @@
   margin-bottom: 50px;
   text-align: center;
 }
+.overlay1{
+  padding: 10px;
+}
+.overlay1 :hover{
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+#hairstyles {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.afro-curly-showing {
+  display: none;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}    
+#appear{
+  display: none; 
+  text-align: center;
+  background-color: wheat;
+  padding: 10px;
+}
