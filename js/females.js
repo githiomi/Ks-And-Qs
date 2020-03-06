@@ -1,10 +1,3 @@
-// $(document).ready(function() {
-//     $(".clickable").click(function() {
-//       $(".afro-curly-showing").toggle();
-//       $(".afro-curly-hidden").toggle();
-//       $("#afro-curly").show();
-//     });
-// });  
 var price = 0;
 var plusTrans = 0;
 
