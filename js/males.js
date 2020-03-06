@@ -98,7 +98,7 @@ function confirmDetails(){
      return Person.cname + ", " + Person.sname;
   }
 
-      $("#showDetails").slideToggle();
+      $("#showDetails").show(500);
       $(".fullName").text(Person.fullName);
       $(".contactInfo").text(Person.contactDetails);
       $(".orderLocation").text(Person.deliveryAddress);

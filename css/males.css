@@ -182,6 +182,15 @@ input{
   padding: 10px;
   width: 200px;
 }
+.mouse1{
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px 0px 15px 0px;
+  background-color: wheat;
+  text-align: center;
+  padding: 15px;
+  animation: bounce 2s infinite;
+}
 #showDetails{
   display: none;
   margin: 15px;
@@ -189,6 +198,13 @@ input{
   border-radius: 15px;
   color: wheat;
   background-color: black;
+}
+#showDetails p{
+  text-align: left;
+}
+.fullName, .contactInfo, .orderLocation, .plusTrans{
+  border-bottom: 1px solid wheat;
+  padding-bottom: 3px;
 }
 #proceedBtn{
   margin-top: 150px;
