@@ -16,6 +16,10 @@
  #content{
    position: fixed;
 } 
+video{
+   width: 100%;
+   padding-left: 10%;
+}
 .webName a{
    text-decoration: none;
    padding: 30px;
