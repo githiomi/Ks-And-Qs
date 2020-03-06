@@ -1,3 +1,4 @@
+@media screen{
 *{
    margin: 0px;
    padding: 0%;
@@ -7,6 +8,7 @@
    height: 100%;
    width: 100%;
    object-fit: fill;
+   margin-left: -4%;
 }
 #videoheader{
    margin-left: -100px ;
@@ -96,3 +98,4 @@
    from { width: 0 }
    to { width: 100% }
  } 
+}

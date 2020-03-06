@@ -14,6 +14,8 @@ p{
 }
 .video{
   margin-left: 5%;
+  position: relative;
+  width: 100%;
 }
 .webName h3{
   padding: 20px;
