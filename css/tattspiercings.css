@@ -4,7 +4,6 @@
 #header{
   margin-bottom: 10px;
 }
-
 video{ 
   size: contain;
   width: 100%;
@@ -54,7 +53,7 @@ video{
   color: white;
   text-decoration: none;
   margin: 10px;
-  font-weight: bolder;
+  font-weight: normal;
   padding-bottom: 10px;
 }
 #genderchoose{
@@ -63,8 +62,10 @@ video{
   padding: 5px;
   padding-top: 20px;
   text-align: center;
-  font-weight: bolder;
   font-size: large;
+}
+.guarantee p{
+  text-align: center;
 }
 .guarantee, .whatspop{
   padding: 20px 0px 20px 0px;
@@ -125,6 +126,7 @@ video{
   color: #0088cc;
 }    
 #appear{
+  border-radius: 15px;
   width: 100%;
   display: none; 
   text-align: center;
@@ -196,6 +198,15 @@ input{
   padding: 10px;
   width: 200px;
 }
+.mouse1{
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px 0px 15px 0px;
+  background-color: wheat;
+  text-align: center;
+  padding: 15px;
+  animation: bounce 2s infinite;
+}
 #showDetails{
   display: none;
   margin: 15px;
@@ -203,6 +214,13 @@ input{
   border-radius: 15px;
   color: wheat;
   background-color: black;
+}
+#showDetails p{
+  text-align: left;
+}
+.fullName, .contactInfo, .orderLocation, .plusTrans{
+  border-bottom: 1px solid wheat;
+  padding-bottom: 3px;
 }
 #proceedBtn{
   margin-top: 150px;
